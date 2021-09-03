@@ -18,18 +18,15 @@ main {
   padding: 4rem 2rem;
 }
 
-html { font-size: 62.5%; }
-body { font-size: 1.4rem; }
-h1 { font-size: 2.4rem; }
-h2 { font-size: 2.2rem; }
-h3 { font-size: 2.0rem; }
-h4 { font-size: 1.8rem; }
-h5 { font-size: 1.6rem; }
+body { font-size: 14px; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
 
 a:link { color: #29adff }
 a:visited { color: #83769c }
-
-.back-button:link { color: #29adff; }
 .back-button:visited { color: #29adff; }
 
 .back-button {
