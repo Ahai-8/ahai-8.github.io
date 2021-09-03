@@ -2,10 +2,12 @@ html {
   height: 100%;
 }
 
+body {background-color: #161616;}
+main {background-color: #5f574f;}
+body {color:#c2c3c7;}
+
 body {
   min-height: 100%;
-  color:#bbb;
-  background-color: #000;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -14,7 +16,6 @@ body {
 }
 
 main {
-  background-color: #262626;
   align-items: center;
   max-width: 840px;
   margin: 0 auto;
@@ -25,3 +26,28 @@ main {
   align-self: flex-start;
 }
 
+a:link { color: #29adff}
+a:visited {color: #1d2b53}
+
+footer {
+  align-items: center;
+}
+
+.pico-8 {
+  color: #000000;
+  color: #1d2b53;
+  color: #7e2553;
+  color: #008751;
+  color: #ab5236;
+  color: #5f574f;
+  color: #c2c3c7;
+  color: #fff1e8;
+  color: #ff004d;
+  color: #ffa300;
+  color: #ffec27;
+  color: #00e436;
+  color: #29adff;
+  color: #83769c;
+  color: #ff77a8;
+  color: #ffccaa;
+}
