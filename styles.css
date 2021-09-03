@@ -1,11 +1,14 @@
 body {
-  background-color: #262626;
-  color: #888888;
+  background-color: #161616;
+  color: #aaaaaa;
 }
 
 main {
+  background-color: #262626;
+  align-items: center;
   width: 800px;
-  align-self: center;
+  margin: auto;
+  padding: 5px;
 }
 
 .back-button{
