@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 关于
+url: about
 ---
 # About page
 
