@@ -28,7 +28,25 @@ Doc 里提到但我没创建的：
 - Filters：改变 Liquid 对象的输出，例如 `{{ "Hello World!" | downcase }}` 会输出小写的 hello world！
 
 
-- Front Matter，YAML 的又一应用，设置页面变量。
-- layout，布局，在 markdown 文件的 front matter 里写上要应用的布局，生成网页时就会套上相应的布局模板。
-- include，套娃
+## Front Matter
+
+YAML 的又一应用，设置页面变量。
+- 
+- 
+## layout
+
+布局，在 markdown 文件的 front matter 里写上要应用的布局，生成网页时就会套上相应的布局模板。
+
+## include
+
+用来写一些可以复用的网页组件，可以套到 layout 里。
+
+## .yml
+
+在 yml 文件里可以设置对象（比如这个站点 `site`）的属性，然后可以在 object 组件里调用。
+
+`_config.yml`里设置的为站点属性，使用 `site.name` 调用。
+
+在`_data`文件夹下设置的属性通过 `site.data.name` 调用。
+
 
