@@ -1,4 +1,5 @@
 <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
+    {% for item in site.navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+    {% endfor %}
 </nav>

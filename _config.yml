@@ -1,0 +1,7 @@
+title: Ahai-8
+
+nevigation:
+  - name: Home
+    link: /
+  - name: About
+    link: /about.html

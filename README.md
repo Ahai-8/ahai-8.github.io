@@ -27,11 +27,8 @@ Doc 里提到但我没创建的：
 - Tags：逻辑和控制语句，用 `{%` 和 `%}` 包括。
 - Filters：改变 Liquid 对象的输出，例如 `{{ "Hello World!" | downcase }}` 会输出小写的 hello world！
 
-## Front Matter
 
-YAML 的又一应用，设置页面变量。
-
-## layout
-
-布局，在 markdown 文件的 front matter 里写上要应用的布局，生成网页时就会套上相应的布局模板。
+- Front Matter，YAML 的又一应用，设置页面变量。
+- layout，布局，在 markdown 文件的 front matter 里写上要应用的布局，生成网页时就会套上相应的布局模板。
+- include，套娃
 

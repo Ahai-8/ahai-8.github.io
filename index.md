@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ahai-8
+title: 首页
 ---
 # {{ "Hello World!" | downcase }}
 
