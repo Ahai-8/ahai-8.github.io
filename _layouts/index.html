@@ -1,19 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="zh">
+---
+layout: default
+---
+{{ content }}
 
-<head>
-    <meta charset="utf-8" />
-    <title>{{site.title}}</title>
-    <link rel="stylesheet" href="/styles.css" />
-</head>
-
-<body>
-    <main class="page-content" aria-label="Content">
-        {{ content }}
-        {% for post in site.posts %}
-        <p>{{ post.date | date: site.date_format }}<a href="{{ post.url }}">{{ post.title }}</a></p>
-        {% endfor %}
-    </main>
-</body>
-
-</html>
+{% for post in site.posts %}
+<p>{{ post.date | date: site.date_format }} - <a href="{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}
