@@ -1,14 +1,24 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: #161616;
-  color: #aaaaaa;
+  min-height: 100%;
+  color:#bbb;
+  background-color: #000;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  overflow-wrap: break-word;
 }
 
 main {
   background-color: #262626;
   align-items: center;
-  width: 800px;
-  margin: auto;
-  padding: 5px;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
 .back-button{
