@@ -2,11 +2,9 @@ html {
   height: 100%;
 }
 
-body {background-color: #161616;}
-main {background-color: #5f574f;}
-body {color:#c2c3c7;}
-
 body {
+  background-color: #262626;
+  color:#c2c3c7;
   min-height: 100%;
   font-family: monospace;
   font-size: 16px;
@@ -22,15 +20,16 @@ main {
   padding: 4rem 2rem;
 }
 
-.back-button{
-  align-self: flex-start;
-}
-
 a:link { color: #29adff}
 a:visited {color: #1d2b53}
 
 footer {
   align-items: center;
+}
+
+.back-button{
+  color: #29adff;
+  align-self: flex-start;
 }
 
 .pico-8 {
