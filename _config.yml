@@ -3,6 +3,8 @@ title: Ahai-8
 navigation:
   - name: Home
     link: /
-  
   - name: About
     link: /about
+  - name: Blog
+    link: /blog
+
