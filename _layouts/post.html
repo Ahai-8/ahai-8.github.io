@@ -11,7 +11,7 @@
     <main class="page-content" aria-label="Content">
         <a href="{{ '/' | relative_url }}" class="back-button">返回</a>
         <h1>{{ page.title }}</h1>
-        <p>{{ page.date | site.date_format }}</p>
+        <p>{{ page.date | date: site.date_format }}</p>
         {{ content }}
         联系我：<a href="mailto:ahai-8@outlook.com">ahai-8@outlook.com</a>
     </main>

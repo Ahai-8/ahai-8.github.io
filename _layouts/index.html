@@ -11,7 +11,7 @@
     <main class="page-content" aria-label="Content">
         {{ content }}
         {% for post in site.posts %}
-        <p>{{ post.date | site.date_format }}<a href="{{ post.url }}">{{ post.title }}</a></p>
+        <p>{{ post.date | date: site.date_format }}<a href="{{ post.url }}">{{ post.title }}</a></p>
         {% endfor %}
     </main>
 </body>
