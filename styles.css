@@ -21,14 +21,46 @@ main {
 }
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
+p { margin: 1rem 0; }
+li { margin: 0.4rem 0; }
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+table { width: 100%; }
+
+table, th, td {
+  border: thin solid #1d2b53;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid #1d2b53;
+  padding: 1rem;
+}
+
+blockquote>p { margin: 0; }
+
+code {
+  color: white;
+  background: black;
+}
+
+div.highlighter-rouge code {
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  padding: 1rem;
+}
 
 a:link { color: #29adff }
 a:visited { color: #83769c }
 .back-button:visited { color: #29adff; }
-
-.back-button {
-  align-self: flex-start;
-}
 
 .pico-8 {
   color: #000000;
