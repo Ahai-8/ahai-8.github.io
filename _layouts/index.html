@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>{page.title}</title>
+    <title>{{ site.title }} - {{ site.description }}</title>
     <link rel="stylesheet" href="/styles.css" />
 </head>
 
@@ -12,7 +12,7 @@
         {{ content }}
 
         {% for post in site.posts %}
-            <h2>{{ page.date | date: "%Y-%m-%d"}} <a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2>{{ page.date | date: "%Y-%m-%d"}} <a href="{{ post.url }}">{{ post.title }}</a></h2>
         {% endfor %}
     </main>
 </body>
