@@ -20,15 +20,15 @@ main {
   padding: 4rem 2rem;
 }
 
-a:link { color: #29adff}
-a:visited {color: #1d2b53}
+a:link { color: #008751}
+a:visited {color: #ffa300}
 
 footer {
   align-items: center;
 }
 
 .back-button{
-  color: #29adff;
+  color: #008751;
   align-self: flex-start;
 }
 
