@@ -7,27 +7,32 @@ body {
   color:#c2c3c7;
   min-height: 100%;
   font-family: monospace;
-  font-size: 16px;
-  line-height: 1.4;
+  overflow-wrap: break-word;
   margin: 0;
 }
 
 main {
-  align-items: center;
   max-width: 840px;
+  align-items: center;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
 
-a:link { color: #29adff}
-a:visited {color: #83769c}
+html { font-size: 62.5%; }
+body { font-size: 1.4rem; }
+h1 { font-size: 2.4rem; }
+h2 { font-size: 2.2rem; }
+h3 { font-size: 2.0rem; }
+h4 { font-size: 1.8rem; }
+h5 { font-size: 1.6rem; }
 
-footer {
-  align-items: center;
-}
+a:link { color: #29adff }
+a:visited { color: #83769c }
 
-.back-button :link,:visited{
-  color: #29adff;
+.back-button:link { color: #29adff; }
+.back-button:visited { color: #29adff; }
+
+.back-button {
   align-self: flex-start;
 }
 
