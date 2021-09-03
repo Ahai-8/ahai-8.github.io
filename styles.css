@@ -26,8 +26,8 @@ footer {
   align-items: center;
 }
 
-.back-button{
-  color: #008751;
+.back-button :link,:visited{
+  color: #29adff;
   align-self: flex-start;
 }
 
