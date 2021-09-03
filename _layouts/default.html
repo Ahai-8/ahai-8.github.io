@@ -1,16 +1,21 @@
 <!DOCTYPE HTML>
-<!doctype html>
-<html>
+<html lang="zh">
 
 <head>
-    <meta charset="utf-8">
-    <title>{{site.title}} | {{page.title}}</title>
-    <link type="stylesheet" href="/assets/css/styles.css">
+    <meta charset="utf-8" />
+    <title>
+        {{ site.title }} | {{ page.title }}
+    </title>
+    <link rel="stylesheet" href="/styles.css" />
 </head>
 
 <body>
-    {% include navigation.html %}
-    {{content}}
+    <main class="page-content" aria-label="Content">
+        {{ content }}
+    </main>
+    <footer>
+        联系我：<a href="mailto:ahai-8@outlook.com">ahai-8@outlook.com</a>
+    </footer>
 </body>
 
 </html>

@@ -1,8 +1,7 @@
 ---
-layout: default
-title: 首页
-url: /
+layout: index
+title: 
 ---
-# {{ "Hello World!" | downcase }}
+# Ahai-8 一个兴趣使然的无名博客
 
-layout used
+建设中，小心随时可能发生的爆炸和放射性污染。

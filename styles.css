@@ -1,0 +1,14 @@
+body {
+  background-color: #262626;
+  color: #888888;
+}
+
+main {
+  width: 800px;
+  align-self: center;
+}
+
+.back-button{
+  align-self: flex-start;
+}
+
