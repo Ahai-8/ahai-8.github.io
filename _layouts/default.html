@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>
-        {{ site.title }} | {{ page.title }}
-    </title>
+    {% if page.name==index %}
+        <title>{{site.title}}</title>
+    {% elseif %}
+        <title>{{ site.title }} | {{ page.title }}</title>
+    {% endif %}
     <link rel="stylesheet" href="/styles.css" />
 </head>
 
@@ -13,9 +15,7 @@
     <main class="page-content" aria-label="Content">
         {{ content }}
     </main>
-    <footer>
-        联系我：<a href="mailto:ahai-8@outlook.com">ahai-8@outlook.com</a>
-    </footer>
+    <footer>联系我：<a href="mailto:ahai-8@outlook.com">ahai-8@outlook.com</a></footer>
 </body>
 
 </html>
