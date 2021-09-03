@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>{{ site.title }} - {{ page.title }}</title>
+    <title>{{ site.title }} {{ page.title }}</title>
     <link rel="stylesheet" href="/styles.css" />
 </head>
 
 <body>
     <main class="page-content" aria-label="Content">
-        <a href="{{ '/' | relative_url }}" class="back-button">返回</a>
+        <a href="{{ '/' | relative_url }}" class="back-button">返回主页</a>
         <h1>{{ page.title }}</h1>
         <p>{{ page.date | date: "%Y-%m-%d"}}</p>
         <br />
         {{ content }}
+        <a href="{{ '/' | relative_url }}" class="back-button">返回主页</a>
         <br />
         联系作者：<a href="mailto:ahai-8@outlook.com">ahai-8@outlook.com</a>
     </main>
