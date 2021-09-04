@@ -59,12 +59,12 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
-a:link { color: #00dffc }
-a:visited { color: #005f6b }
+a:link { color: #008c9e; }
+a:visited { color: #008c9e; }
 
-.back-button:link { color: #00dffc; }
-.back-button:visited { color: #00dffc; }
+.back-button:link { color: #005f6b; }
+.back-button:visited { color: #008c9e; }
 
-.email:link {color:#00dffc}
-.email:visited {color: #00dffc;}
+.email:link {color:#008c9e; }
+.email:visited {color: #008c9e; }
 
