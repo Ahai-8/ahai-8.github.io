@@ -58,3 +58,8 @@ a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
+
+.back-button:link {color: #0000cc;}
+.back-button:visited {color:#0000cc;}
+.email:link {color: #0000cc;}
+.email:visited {color: #0000cc;}
