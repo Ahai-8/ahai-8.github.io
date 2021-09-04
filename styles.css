@@ -49,16 +49,21 @@ blockquote>p { margin: 0; }
 code {
   color: #c2c3c7;
   font-family: monospace;
-  background: #5f574f;
+  background: #1d2b53;
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
 }
 
-a:link { color: #29adff }
+a:link { color: #ff77a8 }
 a:visited { color: #83769c }
-.back-button:visited { color: #29adff; }
+
+.back-button:link { color: #1d2b53; }
+.back-button:visited { color: #1d2b53; }
+
+.email:link {color:#008751}
+.email:visited {color: #008751;}
 
 .pico-8 {
   color: #000000;
