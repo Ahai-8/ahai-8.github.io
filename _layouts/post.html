@@ -1,26 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="zh">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>{{ site.title }} | {{ page.title }}</title>
-    <link rel="stylesheet" href="/styles.css" />
-</head>
-
-<body>
-    <main class="page-content" aria-label="Content">
-        <a href="{{ '/' | relative_url }}" class="back-button">返回主页</a>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.date | date: "%Y-%m-%d"}}</p>
-        {{ content }}
-        <span>
-            <a href="{{ '/' | relative_url }}" class="back-button">返回主页</a>
-        </span>
-        <span style="float: right;">
-            联系作者：阿海<a href="mailto:ahai-8@outlook.com" class="email">ahai-8@outlook.com</a>
-        </span>
-    </main>
-</body>
-
-</html>
+---
+layout: default
+---
+{{ back.html }}
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date: "%Y-%m-%d"}}</p>
+{{ content }}
+{{ back.html }}
