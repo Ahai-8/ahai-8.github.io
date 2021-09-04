@@ -16,7 +16,7 @@ title: 不为什么而写的无名博客
 
 [Email](mailto:ahai-8@outlook.com)：世界上最棒的联系方式。
 
-[Gihub](https://github.com/Ahai-8)：摸鱼的地方。
+[Github](https://github.com/Ahai-8)：摸鱼的地方。
 
 [itch.io](https://ahai-8.itch.io)：游戏作品（暂时没有）。
 
