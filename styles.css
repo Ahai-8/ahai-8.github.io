@@ -6,7 +6,7 @@ body {
   background-color: #262626;
   color:#c2c3c7;
   min-height: 100%;
-  font-family: monospace;
+  font-family: 'Noto Serif CJK SC';
   font-size: 1.2rem;
   line-height: 1.4;
   overflow-wrap: break-word;
@@ -48,10 +48,8 @@ blockquote>p { margin: 0; }
 
 code {
   color: white;
+  font-family: monospace;
   background: black;
-}
-
-div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
