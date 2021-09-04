@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  max-width: 840px;
+  max-width: 640px;
   align-items: center;
   margin: 0 auto;
   padding: 4rem 2rem;
@@ -62,7 +62,7 @@ a:visited { color: #83769c }
 
 .pico-8 {
   color: #000000;
-  color: #5f574f;
+  color: #1d2b53;
   color: #7e2553;
   color: #008751;
   color: #ab5236;
