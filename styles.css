@@ -39,7 +39,6 @@ table, th, td {
 }
 
 blockquote {
-  font-style: italic;
   border: thin solid #5f574f;
   padding: 1rem;
 }
@@ -47,23 +46,28 @@ blockquote {
 blockquote>p { margin: 0; }
 
 code {
+  display: block;
+  background: #000000;
   color: #c2c3c7;
   font-family: monospace;
-  background: #1d2b53;
-  display: block;
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
 }
 
-a:link { color: #1d2b53 }
-a:visited { color: #83769c }
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
 
-.back-button:link { color: #1d2b53; }
-.back-button:visited { color: #1d2b53; }
+a:link { color: #ff004d }
+a:visited { color: #008751 }
 
-.email:link {color:#008751}
-.email:visited {color: #008751;}
+.back-button:link { color: #ff004d; }
+.back-button:visited { color: #ff004d; }
+
+.email:link {color:#ff004d}
+.email:visited {color: #ff004d;}
 
 .pico-8 {
   color: #000000;
