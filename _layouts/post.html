@@ -14,8 +14,12 @@
         <h1>{{ page.title }}</h1>
         <p>{{ page.date | date: "%Y-%m-%d"}}</p>
         {{ content }}
-        <p><a href="{{ '/' | relative_url }}" class="back-button">返回主页</a></p>
-        <p>联系作者：<a href="mailto:ahai-8@outlook.com" class="email">ahai-8@outlook.com</a></p>
+        <span style="align-self: flex-start;">
+            <a href="{{ '/' | relative_url }}" class="back-button">返回主页</a>
+        </span>
+        <span style="align-self: flex-end;">
+            联系作者：<a href="mailto:ahai-8@outlook.com" class="email">ahai-8@outlook.com</a>
+        </span>
     </main>
 </body>
 
