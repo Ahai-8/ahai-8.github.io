@@ -4,7 +4,7 @@ html {
 
 body {
   min-height: 100%;
-  color: #343838;
+  color: #262626;
   font-family: 'Noto Serif CJK SC';
   font-size: 16px;
   line-height: 1.4;
@@ -32,13 +32,13 @@ img {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid #343838;
+  border: thin solid #262626;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 blockquote {
-  border: thin dashed #343838;
+  border: thin dashed #262626;
   padding: 1rem;
 }
 
@@ -46,7 +46,7 @@ blockquote>p { margin: 0; }
 
 code {
   display: block;
-  background: #343838;
+  background: #262626;
   color: #ffffff;
   font-family: monospace;
   overflow-x: auto;
