@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  background-color: #262626;
-  color:#c2c3c7;
   min-height: 100%;
+  background-color: #c2c3c7;
+  color:#1d2b53;
   font-family: 'Noto Serif CJK SC';
   font-size: 16px;
   line-height: 1.4;
@@ -47,9 +47,9 @@ blockquote {
 blockquote>p { margin: 0; }
 
 code {
-  color: white;
+  color: #c2c3c7;
   font-family: monospace;
-  background: black;
+  background: #1d2b53;
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
