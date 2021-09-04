@@ -12,6 +12,8 @@ Hi there!
 
 兴趣是计算机，教育，和游戏。
 
+## 联系
+
 [Email](mailto:ahai-8@outlook.com)：世界上最棒的联系方式。
 
 [Gihub](https://github.com/Ahai-8)：摸鱼的地方。
