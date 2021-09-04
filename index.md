@@ -18,7 +18,7 @@ title: 不为什么而写的无名博客
 
 [Gihub](https://github.com/Ahai-8)：摸鱼的地方。
 
-[itch](https://ahai-8.itch.io)：游戏作品（暂时没有）。
+[itch.io](https://ahai-8.itch.io)：游戏作品（暂时没有）。
 
 ## 文章
 
