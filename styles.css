@@ -47,6 +47,7 @@ blockquote>p { margin: 0; }
 code {
   display: block;
   background: #343838;
+  color: #ffffff;
   font-family: monospace;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -59,7 +60,7 @@ a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
 a:link { color: #00dffc }
-a:visited { color: #008c9e }
+a:visited { color: #005f6b }
 
 .back-button:link { color: #00dffc; }
 .back-button:visited { color: #00dffc; }
