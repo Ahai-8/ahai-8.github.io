@@ -59,11 +59,11 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
-a:link { color: #263859; }
+a:link { color: #1d3c77; }
 a:visited { color: #17223b; }
 
-.back-button:link { color: #263859; }
-.back-button:visited { color: #263859; }
+.back-button:link { color: #1d3c77; }
+.back-button:visited { color: #1d3c77; }
 
-.email:link {color:#263859; }
-.email:visited {color: #263859; }
+.email:link {color:#1d3c77; }
+.email:visited {color: #1d3c77; }
