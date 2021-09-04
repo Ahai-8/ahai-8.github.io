@@ -4,8 +4,7 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #c2c3c7;
-  color:#5f574f;
+  color: #343838;
   font-family: 'Noto Serif CJK SC';
   font-size: 16px;
   line-height: 1.4;
@@ -33,13 +32,13 @@ img {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid #5f574f;
+  border: thin solid #343838;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 blockquote {
-  border: thin solid #5f574f;
+  border: thin dashed #343838;
   padding: 1rem;
 }
 
@@ -47,8 +46,7 @@ blockquote>p { margin: 0; }
 
 code {
   display: block;
-  background: #000000;
-  color: #c2c3c7;
+  background: #343838;
   font-family: monospace;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -60,30 +58,12 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
-a:link { color: #ff004d }
-a:visited { color: #008751 }
+a:link { color: #00dffc }
+a:visited { color: #008c9e }
 
-.back-button:link { color: #ff004d; }
-.back-button:visited { color: #ff004d; }
+.back-button:link { color: #00dffc; }
+.back-button:visited { color: #00dffc; }
 
-.email:link {color:#ff004d}
-.email:visited {color: #ff004d;}
+.email:link {color:#00dffc}
+.email:visited {color: #00dffc;}
 
-.pico-8 {
-  color: #000000;
-  color: #1d2b53;
-  color: #7e2553;
-  color: #008751;
-  color: #ab5236;
-  color: #5f574f;
-  color: #c2c3c7;
-  color: #fff1e8;
-  color: #ff004d;
-  color: #ffa300;
-  color: #ffec27;
-  color: #00e436;
-  color: #29adff;
-  color: #83769c;
-  color: #ff77a8;
-  color: #ffccaa;
-}
