@@ -45,9 +45,11 @@ index.md：网站首页。
 
 变量使用双大括号包括：
 
+{% raw %}
 ```
-\{\{ variable \}\}
+{{ variable }}
 ```
+{% endraw %}
 
 ### 语句
 
