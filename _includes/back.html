@@ -1,6 +1,8 @@
 <span>
     <a href="{{ '/' | relative_url }}" class="back">返回</a>
-    <a href="{{ page.previous | relative_url }}" style="align-self: flex-end;">上一篇</a>
-    <span> | </span>
-    <a href="{{ page.next | relative_url }}" style="align-self: flex-end;">下一篇</a>
+    <span style="float: right;">
+        <a href="{{ page.previous | relative_url }}">上一篇</a>
+        <span> | </span>
+        <a href="{{ page.next | relative_url }}">下一篇</a>
+    </span>
 </span>
