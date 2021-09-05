@@ -6,11 +6,11 @@ layout: index
 
 你好啊，探索者。
 
-我只是个普通却自信的大龄单身男青年，对计算机，游戏和教育感兴趣。
+我只是个普通却自信的大龄单身男青年，对计算机、游戏和教育感兴趣。
 
 你可以通过以下方式找到我：
 
-[Email](mailto:ahai-8@outlook.com)：ahai-8@outlook.com
+[Email](mailto:ahai-8@hotmail.com)：ahai-8@hotmail.com
 
 [Github](https://github.com/Ahai-8/)：每天摸鱼的地方。
 
