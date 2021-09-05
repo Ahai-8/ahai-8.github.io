@@ -1,4 +1,4 @@
-此 repo 储存本人博客的源码。
+此 repo 储存本人博客的源文件。
 
 浏览博客内容，请移步：https://ahai-8.github.io/
 
