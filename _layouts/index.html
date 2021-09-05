@@ -10,7 +10,6 @@ layout: default
 {% for post in site.posts %}
 <p>
     <a href="{{ post.url }}" class="post-in-list">{{ post.title }}</a>
-    <span class="date-in-list">{{ post.date | date: "%Y-%m-%d"}}</span>
 </p>
 {% endfor %}
 

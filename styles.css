@@ -20,13 +20,8 @@ main {
 }
 
 .post-in-list {
-  overflow-x: hidden;
-}
-
-.date-in-list {
-  overflow-x: hidden;
-  float:right;
-
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 { margin-top: 3rem; }
