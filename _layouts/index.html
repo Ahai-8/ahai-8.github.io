@@ -8,7 +8,11 @@ layout: default
 <p style="text-align: center;">---文章---</p>
 
 {% for post in site.posts %}
-<p><a href="{{ post.url }}" class="post-in-list">{{ post.title }}</a> {{ post.date | date: "%Y-%m-%d"}}</p>
+<p>
+    <a href="{{ post.url }}" class="post-in-list">{{ post.title }}</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    {{ post.date | date: "%Y-%m-%d"}}
+</p>
 {% endfor %}
 
 <p style="text-align: center;">---结束---</p>
