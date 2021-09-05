@@ -43,27 +43,17 @@ index.md：网站首页。
 
 ### 变量
 
-变量使用双大括号包括：
-```
-\{\{ variable \}\}
-```
+变量使用双大括号包括：`{\{ variable }\}`
 
 ### 语句
 
-语句使用大括号和百分号包括起来
-
-```
-\{\% statement \%\}
-```
+语句使用大括号和百分号包括起来：`{\% statement %\}`
 
 最常见的 `include`，选择语句 `if..else..`，迭代器 `for .. in ..`
 
 ### 过滤器
 
-双大括号包括，竖线前填处理内容，竖线后填处理方法：
-
-```
-{% raw %}{{ content | method }}{% endraw %}
+双大括号包括，竖线前填处理内容，竖线后填处理方法：`{\{ content | method }\}`
 ```
 
 ## 两种嵌套
@@ -75,24 +65,23 @@ index.md：网站首页。
 比如，在 _inludes 文件夹下新建 controlbar.html 文件，写入以下内容：
 
 ```
-{% raw %}<div>
-    <a href="{{ "/" }}">返回</a>
-</div>{% endraw %}
+<div>
+    <a href="{\{ '/' }\}">返回</a>
+</div>
 ```
 
 而后，在模板 post.html 中使用 `include` 语句：
 
 ```
-{% raw %}{% include controlbar.html %}
+{\% include controlbar.html %\}
 <p>正文内容</p>
-{% include controlbar.html %}{% endraw %}
+{\% include controlbar.html %\}
 ```
 
 ### 2. layout 与 content
 
-```
-{% raw %}{{ content }}{% endraw %}
-```
+`{\{ content }\}`
+
 
 ## 发布文章
 
