@@ -19,11 +19,6 @@ main {
   padding: 2rem 2rem;
 }
 
-.post-in-list {
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 h1, h2, h3, h4, h5, h6 { margin-top: 3rem; }
 p { margin: 1rem 0; }
 li { margin: 0.4rem 0; }
