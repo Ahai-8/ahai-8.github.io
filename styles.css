@@ -44,14 +44,14 @@ blockquote {
 
 blockquote>p { margin: 0; }
 
-p>code {
-  color: #ffffff;
-  background: #262626;
+code {
+  color: #8bac0f;
+  font-family: monospace;
 }
 
 div.highlighter-rouge>code {
+  background: #0f380f;
   display: block;
-  font-family: monospace;
   overflow-x: auto;
   white-space: pre-wrap;
   padding: 1rem;
