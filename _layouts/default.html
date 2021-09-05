@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     {% if page.name == 'index.md' %}
-    <title>{{ site.title }} {{ site.description }}</title>
+    <title>{{ site.title }}</title>
     {% else %}
-    <title>{{ site.title }} {{ page.title }}</title>
+    <title>{{ site.title }} / {{ page.title }}</title>
     {% endif%}
 
     <link rel="stylesheet" href="/styles.css" />
