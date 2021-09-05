@@ -12,20 +12,32 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 ## 最基本的 jekyll 文件结构
 
 ```
-|__ _includes    # 模块文件夹
+|__ _includes
 |   |__ controlbar.html
-|__ _layouts     # 模板文件夹
+|__ _layouts
 |   |__ default.html
 |   |__ index.html
 |   |__ post.html
-|__ _posts       # 文章文件夹
+|__ _posts
 |   |__ post1.md
 |   |__ post2.md
 |   |__ post3.md
-|__ _config.yml  # 网站属性
-|__ styles.css   # 样式表
-|__ index.md     # 网站首页
+|__ _config.yml
+|__ styles.css
+|__ index.md
 ```
+
+_includes：模块文件夹，用 `include` 语句嵌入其他模板（后文详细介绍）。
+
+_layouts：模板文件夹，存放生成 html 时套用的模板。
+
+_posts：博文文件夹。
+
+_config.yml：网站属性设置。
+
+style.css：网站的样式表，不是一篇文章能讲清楚的，请找其他教程，或者直接复制修改别人做好的表。
+
+index.md：网站首页。
 
 ## 变量、语句和过滤器
 
@@ -33,9 +45,7 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 变量使用双大括号包括：
 ```
-{% raw %}
-{{ variable }}
-{% endraw %}
+\{\{ variable \}\}
 ```
 
 ### 语句
@@ -43,7 +53,7 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 语句使用大括号和百分号包括起来
 
 ```
-{% raw %}{% statement %}{% endraw %}
+\{\% statement \%\}
 ```
 
 最常见的 `include`，选择语句 `if..else..`，迭代器 `for .. in ..`

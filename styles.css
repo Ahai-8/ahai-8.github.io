@@ -62,7 +62,7 @@ a:visited {text-decoration:none;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
-.back:link {color: #0000cc;}
-.back:visited {color:#0000cc;}
+.control:link {color: #0000cc;}
+.control:visited {color:#0000cc;}
 .email:link {color: #0000cc;}
 .email:visited {color: #0000cc;}
