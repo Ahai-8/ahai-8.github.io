@@ -1,8 +1,11 @@
 <div>
     <a href="{{ '/' | relative_url }}" class="back">返回</a>
     <span style="float: right;margin: auto;">
+        {% if page.previous != nil %}
         <a href="{{ page.previous | relative_url }}">上一篇</a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="{{ page.next | relative_url }}">下一篇</a>
+        {% endif %}
+        {% if page.next != nil %}
+        <a href="{{ page.next | relative_url }}">&nbsp;&nbsp;&nbsp;下一篇</a>
+        {% endif %}
     </span>
 </div>
