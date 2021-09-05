@@ -1,0 +1,167 @@
+---
+layout: post
+---
+
+{% raw %}
+
+## jekyll 简介
+
+jekyll 可以批量生成静态网页，非常适用于个人博客。
+
+而且 Gihub Pages 内置支持 jekyll，用户无需下载运行 jekyll，直接在 repo 里存入源文件，网站就可以在 Github 服务器上自动生成。
+
+## 最基本的 jekyll 文件结构
+
+```
+|__ _includes      # 模块文件夹
+|   |__ controlbar.html
+|__ _layouts       # 模板文件夹
+|   |__ default.html
+|   |__ index.html
+|   |__ post.html
+|__ _posts         # 文章文件夹
+|   |__ post1.md
+|   |__ post2.md
+|   |__ post3.md
+|__ _config.yml    # 网站属性文件
+|__ styles.css     # 样式表
+|__ index.md       # 网站首页
+```
+
+## 变量
+
+使用变量时，用双花括号包括：
+
+```
+{{ variable }}
+```
+
+网站，模板，页面都被认为是 **对象**，都具有一些属性，比如
+
+
+## 语句
+
+使用语句时，用花括号和百分号包括：
+
+```
+{% statement %}
+```
+常用的语句：
+
+- `if..elsif..else..`，选择语句，在不同的页面应用不同的变量或者元素。
+
+  下例在主页将 title 设置为网站的标题，在博文页将页面的 title 设置为网站的标题+文章的标题。
+
+    ```
+    {% if page.name == 'index.md' %}
+        <title>{{ site.title }}</title>
+    {% else %}
+        <title>{{ site.title }} / {{ page.title }}</title>
+    {% endif%}
+    ```
+
+- `for .. in ..`：迭代器，用来生成文章列表等。
+
+    下例生成了一个文章列表，格式为”文章标题 发布日期“，且带有指向文章的链接。
+    ```
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            {{ post.title }} {{ post.date}}
+        </a>
+    {% endfor %}
+    ```
+
+
+## 过滤器
+
+双大括号包括，前面是填处理内容，后面是处理方法，会将前面的内容按后面的方法处理后再输出：
+
+```
+{{ '/asset/image/123.png' | relative_url }}
+```
+
+上例就会将指向 123.png 的链接转换为相对链接。
+
+常用的方法有：
+- `relative_url`，转换为相对链接，建议站内链接使用；
+- `absolute_url`，转换为绝对链接，建议站外链接使用；
+- `date: "%Y-%m-%d"`，将日期转换为 2021-09-06 的形式；
+
+更多用法见[官方文档](https://jekyllrb.com/docs/liquid/filters/)。
+
+## 两种嵌套
+
+### 1. include
+
+通过 `include` 语句可以在模板中引入模块。
+
+比如，在 _inludes 文件夹下新建 controlbar.html 文件，写入以下内容：
+
+```
+<div><a href="{{ '/' }}">返回</a></div>
+```
+
+而后，在模板 post.html 中使用 `include` 语句：
+
+```
+{% include controlbar.html %}
+<p>正文内容</p>
+{% include controlbar.html %}
+```
+controlbar.html 就被嵌入到 post.html 中正文内容的上下两侧。等价于在 post.html 中写下：
+
+```
+<div><a href="{{ '/' }}">返回</a></div>
+<p>正文内容</p>
+<div><a href="{{ '/' }}">返回</a></div>
+```
+
+模块通过这种方式可以一次编辑，多次使用。而需要修改模块时，只需修改一处，就可以应用到所有模板。
+
+### 2. layout 与 content
+
+基础模板 default.html 的部分内容如下：
+
+```
+<body>
+    <main aria-label="Content">
+        {{ content }}
+    </main>
+</body>
+```
+
+而 index.html 和 post.html的开头的 yaml 中声明了它们以 default为模板：
+```
+---
+layout: default
+---
+<div>示例内容</div>
+```
+
+那么它们的在 jekyll 中的实际内容就变成了将它们自身的内容嵌入到 default 的`{{ content }}` 中之后得到的 全部内容，即：
+
+```
+<body>
+    <main aria-label="Content">
+        <div>示例内容</div>
+    </main>
+</body>
+```
+
+当然 index.html 和 post.html 同样可以设置自己的 `{{ content }}`，同样可以被其他模板作为模板套用（无限套娃）。
+
+## 发布文章
+
+当然，最终模板都是用来被文章套用的，在 _post 文件夹下的 markdown 文件的开头 yaml 中设置 layout 属性，就可以生成特定类型的网页，其内容就是文章内容嵌入到模板的 `{{ content }}` 部分的结果。
+
+## 其他
+
+这个博客 [阿海的呓语](https://ahai-8.github.io/) 就是用 jekyll 生成，源文件存储在 [Ahai/ahai.github.io](https://github.com/Ahai-8/ahai-8.github.io) ，直接看源文件可以帮助理解。
+
+喜欢这个主题可以直接 fork 过去改。
+
+分类和标签，官方文档的[这一页](https://jekyllrb.com/docs/step-by-step/09-collections/)讲了如何制作作者主页，原理是相同的。
+
+jekyll 还有很多高级功能、插件等，有兴趣可以自行[探索](https://jekyllrb.com/docs/)。
+
+{% endraw %}
