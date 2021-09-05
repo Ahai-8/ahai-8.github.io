@@ -46,7 +46,7 @@ index.md：网站首页。
 变量使用双大括号包括：
 
 ```
-{\{ variable }\}
+\{\{ variable \}\}
 ```
 
 ### 语句
@@ -54,7 +54,7 @@ index.md：网站首页。
 语句使用大括号和百分号包括起来：
 
 ```
-{\% statement %\}
+\{\% statement \%\}
 ```
 
 最常见的 `include`，选择语句 `if..else..`，迭代器 `for .. in ..`
