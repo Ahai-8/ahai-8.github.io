@@ -14,6 +14,6 @@ layout: index
 
 [Email](mailto:ahai-8@outlook.com)：ahai-8@outlook.com
 
-[Github](https://github.com/Ahai-8/)：代码托管平台，摸鱼的地方。
+[Github](https://github.com/Ahai-8/)：每天摸鱼的地方。
 
-[itch.io](https://ahai-8.itch.io)：游戏发布平台，暂时没有作品。
+[itch.io](https://ahai-8.itch.io)：在做了。
