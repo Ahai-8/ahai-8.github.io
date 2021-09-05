@@ -1,6 +1,5 @@
 <span>
     <a href="{{ '/' | relative_url }}" class="back">返回</a>
-</span>
-<span>
-    <a href="mailto:ahai-8@outlook.com" style="float: right;">联系博主</a>
+    <a href="{{ page.previous | relative_url }}" style="float: right;">上一篇</a>
+    <a href="{{ page.next | relative_url }}" style="float: right;">下一篇</a>
 </span>
