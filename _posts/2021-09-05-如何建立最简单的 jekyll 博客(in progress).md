@@ -45,17 +45,13 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 变量使用双大括号包括：
 
-```
-{{ variable }}
-```
+![1.png](https://i.loli.net/2021/09/05/Lk6uWsmOCRZxv9f.png)
 
 ### 语句
 
 语句使用大括号和百分号包括起来
 
-```
-{% %}
-```
+![2.png](https://i.loli.net/2021/09/05/vyeqQSa2X8ETwPb.png)
 
 最常见的 `include`，选择语句 `if..else..`，迭代器 `for .. in ..`
 
@@ -63,9 +59,7 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 双大括号包括，竖线前填处理内容，竖线后填处理方法：
 
-```
-{{ content | method }}
-```
+![3.png](https://i.loli.net/2021/09/05/qmsA9JvbPdeafVz.png)
 
 ## 两种嵌套
 
@@ -75,28 +69,15 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 比如，在 _inludes 文件夹下新建 controlbar.html 文件，写入以下内容：
 
-```
-<div>
-    <a href="{{ '/' }}">返回</a>
-</div>
-```
+![4.png](https://i.loli.net/2021/09/05/DpmRUQ19yS3hegf.png)
 
 而后，在模板 post.html 中使用 `include` 语句：
 
-```
-{% include control.html %}
-
-<p>正文</p>
-
-{% include control.html %}
-```
-
+![5.png](https://i.loli.net/2021/09/05/fD7ZVIUSbu5K1Cw.png)
 
 ### 2. layout 与 content
 
-```
-{{ content }} 与 layout
-```
+![6.png](https://i.loli.net/2021/09/05/7EROg5jnCFxdNJW.png)
 
 ## 发布文章
 
