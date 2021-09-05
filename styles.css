@@ -44,10 +44,13 @@ blockquote {
 
 blockquote>p { margin: 0; }
 
-code {
-  display: block;
-  background: #262626;
+p>code {
   color: #ffffff;
+  background: #262626;
+}
+
+div.highlighter-rouge>code {
+  display: block;
   font-family: monospace;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -63,4 +66,3 @@ a:active {text-decoration:underline;}
 .back:visited {color:#0000cc;}
 .email:link {color: #0000cc;}
 .email:visited {color: #0000cc;}
-
