@@ -12,19 +12,19 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 ## 最基本的 jekyll 文件结构
 
 ```
-|__ _includes           # 模块文件夹
+|__ _includes    # 模块文件夹
 |   |__ controlbar.html
-|__ _layouts            # 模板文件夹
+|__ _layouts     # 模板文件夹
 |   |__ default.html
 |   |__ index.html
 |   |__ post.html
-|__ _posts              # 文章文件夹
+|__ _posts       # 文章文件夹
 |   |__ post1.md
 |   |__ post2.md
 |   |__ post3.md
-|__ _config.yml         # 网站属性
-|__ styles.css          # 样式表
-|__ index.md            # 网站首页
+|__ _config.yml  # 网站属性
+|__ styles.css   # 样式表
+|__ index.md     # 网站首页
 ```
 
 ## 变量、语句和过滤器
