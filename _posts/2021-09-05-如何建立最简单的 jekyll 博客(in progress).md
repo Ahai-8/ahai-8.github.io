@@ -7,21 +7,9 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 而且 Gihub Pages 内置支持 jekyll，用户无需下载运行 jekyll，直接在 repo 里存入源文件，网站就可以在 Github 服务器上自动生成。
 
-这个博客 [阿海的呓语](https://ahai-8.github.io/) 就是用 jekyll 生成，如果文章没有看懂，可以翻翻存储在 [Ahai/ahai.github.io](https://github.com/Ahai-8/ahai-8.github.io) 的源文件。
+这个博客 [阿海的呓语](https://ahai-8.github.io/) 就是用 jekyll 生成，源文件存储在 [Ahai/ahai.github.io](https://github.com/Ahai-8/ahai-8.github.io) ，喜欢这个主题可以直接 fork 过去改。
 
->接下来的阅读过程中，如果喊出“我不想努力了”，可通过以下途径解决：
->
->1. 直接把仓库 fork 到自己的账号，或者下载解压 zip；
->2. 修改 index.md 这个文件（首页的内容），修改 _config 文件夹里的 `title` 后面的属性为自己的博客名；
->3. 清空 _post 文件夹，把自己写的 markdown 博文放进去，每篇文章记得加以下前缀：
->    ```
->    ---
->    layout: post
->    ---
->    ```
->4. 坐一会，喝口水，给自己（的仓库）一点时间和空间；
-
-## 最简单的 jekyll 源文件结构
+## 最基本的 jekyll 文件结构
 
 ```
 |__ _includes           # 模块文件夹
