@@ -24,19 +24,19 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 ## 最简单的 jekyll 源文件结构
 
 ```
-|__ _includes                 # 模块文件夹
+|__ _includes           # 模块文件夹
 |   |__ controlbar.html
-|__ _layouts                  # 模板文件夹
+|__ _layouts            # 模板文件夹
 |   |__ default.html
 |   |__ index.html
 |   |__ post.html
-|__ _posts                    # 文章文件夹
+|__ _posts              # 文章文件夹
 |   |__ post1.md
 |   |__ post2.md
 |   |__ post3.md
-|__ _config.yml               # 网站属性
-|__ styles.css                # 样式表
-|__ index.md                  # 网站首页
+|__ _config.yml         # 网站属性
+|__ styles.css          # 样式表
+|__ index.md            # 网站首页
 ```
 
 ## 变量、语句和过滤器
@@ -44,14 +44,21 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 ### 变量
 
 变量使用双大括号包括：
-
-![1.png](https://i.loli.net/2021/09/05/Lk6uWsmOCRZxv9f.png)
+```
+{% raw %}
+{{ variable }}
+{% endraw %}
+```
 
 ### 语句
 
 语句使用大括号和百分号包括起来
 
-![2.png](https://i.loli.net/2021/09/05/vyeqQSa2X8ETwPb.png)
+```
+{% raw %}
+{% statement %}
+{% endraw %}
+```
 
 最常见的 `include`，选择语句 `if..else..`，迭代器 `for .. in ..`
 
@@ -59,7 +66,11 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 双大括号包括，竖线前填处理内容，竖线后填处理方法：
 
-![3.png](https://i.loli.net/2021/09/05/qmsA9JvbPdeafVz.png)
+```
+{% raw %}
+{{ content | method }}
+{% endraw %}
+```
 
 ## 两种嵌套
 
@@ -69,19 +80,32 @@ jekyll 可以批量生成静态网页，非常适用于个人博客。
 
 比如，在 _inludes 文件夹下新建 controlbar.html 文件，写入以下内容：
 
-![4.png](https://i.loli.net/2021/09/05/DpmRUQ19yS3hegf.png)
+```
+{% raw %}
+<div>
+    <a href="{{ "/" }}">返回</a>
+</div>
+{% endraw %}
+```
 
 而后，在模板 post.html 中使用 `include` 语句：
 
-![5.png](https://i.loli.net/2021/09/05/fD7ZVIUSbu5K1Cw.png)
+```
+{% raw %}
+{% include controlbar.html %}
+<p>正文内容</p>
+{% include controlbar.html %}
+{% endraw %}
+```
 
 ### 2. layout 与 content
 
-![6.png](https://i.loli.net/2021/09/05/7EROg5jnCFxdNJW.png)
+```
+{% raw %}
+{{ content }}
+{% endraw %}
+```
 
 ## 发布文章
 
-
-
 标签分类，搜索——可以，但没必要。
-

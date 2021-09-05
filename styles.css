@@ -49,8 +49,8 @@ code {
   font-family: monospace;
 }
 
-div.highlighter-rouge>code {
-  background: #0f380f;
+div.highlighter-rouge code {
+  background: #262626;
   display: block;
   overflow-x: auto;
   white-space: pre-wrap;
