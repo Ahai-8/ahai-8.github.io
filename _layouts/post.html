@@ -7,6 +7,11 @@ layout: default
 <p style="text-align: center;">{{ page.date | date: "%Y-%m-%d"}}</p>
 
 {{ content }}
-<br />
-<br />
+
+{% if page.license == "by-sa" %}
+{% include license-by-sa.html %}
+{% elsif page.license == "by-nc-nd" %}
+{% include license-by-nc-nd.html %}
+{% endif %}
+
 {% include controlbar.html %}

@@ -8,6 +8,5 @@ layout: index
 
 联系我：[ahai-8@hotmail.com](mailto:ahai-8@hotmail.com)
 
-<!--
->小提示：按 Ctrl + F 可以在本页打开搜索（等文章多了再启用本行）
--->
+<!--小提示：按 Ctrl + F 可以在本页打开搜索（文章多了再启用-->
+
