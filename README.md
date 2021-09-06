@@ -4,6 +4,8 @@
 
 使用主题可下载或 fork。
 
+---
+
 Powerd by [Github Pages](https://pages.github.com/) & [jekyll](https://jekyllrb.com/)
 
 Theme inspired by [no style, please!](https://riggraz.dev/no-style-please/)
