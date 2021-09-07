@@ -1,11 +1,11 @@
-<div>
+<div class="contro_lbar">
 
     <a href="{{ '/' | relative_url }}" class="control">返回</a>
 
     <span style="float: right;margin: auto;">
 
         {% if page.next != nil %}
-        <a href="{{ page.next | relative_url }}" class="control">后一篇</a>
+        <a href="{{ page.next | relative_url }}" class="control_button">后一篇</a>
         {% else %}
         <span style="color: #888888;">已到最后</span>
         {% endif %}
@@ -13,7 +13,7 @@
         &nbsp;&nbsp;&nbsp;
 
         {% if page.previous != nil %}
-        <a href="{{ page.previous | relative_url }}" class="control">前一篇</a>
+        <a href="{{ page.previous | relative_url }}" class="control_button">前一篇</a>
         {% else %}
         <span style="color: #888888;">已到最前</span>
         {% endif %}
