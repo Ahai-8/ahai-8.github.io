@@ -8,10 +8,10 @@ layout: default
 
 {{ content }}
 
+{% include controlbar.html %}
+
 {% if page.license == "by-sa" %}
 {% include license-by-sa.html %}
 {% elsif page.license == "by-nc-nd" %}
 {% include license-by-nc-nd.html %}
 {% endif %}
-
-{% include controlbar.html %}
