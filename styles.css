@@ -18,6 +18,7 @@ main {
   max-width: 640px;
   margin: auto;
   padding: 2rem 2rem;
+  flex-direction: column;
   flex: 1;
 }
 
