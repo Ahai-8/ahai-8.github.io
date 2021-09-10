@@ -4,29 +4,25 @@ html {
 
 body {
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
   margin: 0;
   color: #262626;
-  font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
   font-size: 18px;
   line-height: 1.4;
   overflow-wrap: normal;
+  font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
 
 main {
   max-width: 640px;
   margin: auto;
   padding: 2rem 2rem;
-  flex-direction: column;
-  flex: 1;
 }
 
 .control_bar {
   padding: 2rem 0;
 }
 
-footer {
+.footer {
   text-align: center;
   font-size: 14px;
   padding: 2rem;
