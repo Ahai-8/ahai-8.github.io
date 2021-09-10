@@ -69,11 +69,8 @@ div.highlighter-rouge code {
   padding: 1rem;
 }
 
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
+a:link {text-decoration:none;color: #0000cc;}
+a:visited {text-decoration:none;color: #0000cc;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
-
-.control_button:link {color: #0000cc;}
-.control_button:visited {color:#0000cc;}
 

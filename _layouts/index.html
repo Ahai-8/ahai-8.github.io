@@ -5,8 +5,6 @@ layout: default
 
 {{ content }}
 
-<p style="text-align: center;">---文章---</p>
-
 {% for post in site.posts %}
 <p><a href="{{ post.url }}" class="post-in-list">{{ post.title }}</a></p>
 {% endfor %}

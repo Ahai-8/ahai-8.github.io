@@ -1,12 +1,13 @@
 ---
 layout: index
 ---
+## info
 
-你好，叫我阿海就行。
+[E-mail](mailto:ahai-8@hotmail.com)：ahai-8@hotmail.com
 
-我只是个普通大龄单身男青年，对计算机、游戏和教育感兴趣，在这里记录自己的探索和思考。
+[Github](https://github.com/Ahai-8):摸鱼的地方
 
-你可以通过邮箱与我交流：[ahai-8@hotmail.com](mailto:ahai-8@hotmail.com)
+[itch.io](https://ahai-8.itch.io):游戏项目（在做了）。
 
-<!--小提示：按 Ctrl + F 可以在本页打开搜索（文章多了再启用本行）-->
+## post
 
