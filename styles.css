@@ -18,16 +18,6 @@ main {
   padding: 2rem 2rem;
 }
 
-.control_bar {
-  padding: 2rem 0;
-}
-
-.footer {
-  text-align: center;
-  font-size: 14px;
-  padding: 2rem;
-}
-
 h1, h2, h3, h4, h5, h6 { margin-top: 3rem; }
 p { margin: 1rem 0; }
 li { margin: 0.4rem 0; }
@@ -71,3 +61,17 @@ a:visited {text-decoration:none;color: #0000cc;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
+.control_bar {
+  padding: 2rem 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 2rem;
+}
+
+.license {
+  display: block;
+  border: thin solid #262626;
+}

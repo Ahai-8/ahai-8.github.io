@@ -9,3 +9,9 @@ layout: default
 {{ content }}
 
 {% include controlbar.html %}
+
+{% if page.lisence == by-sa %}
+{% include by-sa.html %}
+{% elsif page.lisence == by-nc-nd.html %}
+{% include by-nc-nd.html %}
+{% endif %}
