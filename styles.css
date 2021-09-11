@@ -72,6 +72,5 @@ a:active {text-decoration:underline;}
 }
 
 .license {
-  display: block;
-  border: thin solid #262626;
+  font-size: 14px;
 }
