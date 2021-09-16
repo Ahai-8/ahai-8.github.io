@@ -66,9 +66,8 @@ a:active {text-decoration:underline;}
 }
 
 .footer {
-  text-align: center;
   font-size: 14px;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .license {
