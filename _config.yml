@@ -1,7 +1,8 @@
-title: 阿海
-description: 兴趣使然的无名博客
-author: Ahai-8
+title: 阿海的博客
+description: 所谓博客，就是没人看也要写下去的东西
+author: 阿海
 locale: zh_CN
+
 plugins:
 - jekyll-seo-tag
 - jekyll-feed
