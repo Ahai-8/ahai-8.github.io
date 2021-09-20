@@ -1,6 +1,7 @@
 title: 阿海
-describtion: 兴趣使然的无名博客
+description: 兴趣使然的无名博客
 author: Ahai-8
+locale: zh_CN
 plugins:
 - jekyll-seo-tag
 - jekyll-feed
