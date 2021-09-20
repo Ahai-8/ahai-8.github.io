@@ -1,2 +1,5 @@
 title: 阿海
 describtion: 兴趣使然的无名博客
+author: Ahai-8
+plugins:
+- jekyll-seo-tag
